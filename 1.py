@@ -1,18 +1,26 @@
-print(10 > 9)
-True
+def my_function():
+    print("Hello from a function")
+
+
+def my_function():
+  print("Hello from a function")
+my_function()
+
+
+def my_function(fname, lname):
+  print(fname)
+
+
+def my_function(x):
+   return x + 5
+
+def my_function(*kids):
+  print("The youngest child is " + kids[2])  
+
+
+def my_function(**kid):
+  print("His last name is " + kid["lname"])  
 
 
 
-print(10 == 9)
-False
-
-
-print(10 < 9)
-False
-
-print(bool("abc"))
-True
-
-
-print(bool(0))
-False
+  

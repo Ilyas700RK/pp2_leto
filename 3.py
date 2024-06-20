@@ -1,35 +1,24 @@
-fruits = ["apple", "banana", "cherry"]
-print(fruits[1])
+class MyClass:
+  x = 5
 
 
-
-fruits = ["apple", "banana", "cherry"]
-fruits[0] = "kiwi"
-
-
-
-fruits = ["apple", "banana", "cherry"]
-fruits.append("orange") 
+class MyClass:
+  x = 5
+p1 = MyClass()
 
 
-
-fruits = ["apple", "banana", "cherry"]
-fruits.insert(1,"lemon")
-
-
-
-fruits = ["apple", "banana", "cherry"]
-fruits.remove("banana")
+class MyClass:
+  x = 5
+p1 = MyClass()
 
 
-
-fruits = ["apple", "banana", "cherry"]
-print(fruits[-1])
-
-
-fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(fruits[2:5])
+class MyClass:
+  x = 5
+p1 = MyClass()
+print(p1.x) 
 
 
-fruits = ["apple", "banana", "cherry"]
-print(len(fruits))
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age

@@ -1,15 +1,15 @@
-fruits = ("apple", "banana", "cherry")
-print(fruits[0])
+class Student(Person):
 
 
+ class Person:
+  def __init__(self, fname):
+    self.firstname = fname
 
-fruits = ("apple", "banana", "cherry")
-print(len(fruits))
+  def printname(self):
+    print(self.firstname)
 
+class Student(Person):
+  pass
 
-fruits = ("apple", "banana", "cherry")
-print(fruits[-1])
-
-
-fruits = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
-print(fruits[2:5])
+x = Student("Mike")
+x.printname()    
